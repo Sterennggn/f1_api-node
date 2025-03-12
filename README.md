@@ -18,5 +18,5 @@ Ce projet est une application simple qui utilise une API F1 pour fournir des inf
 
 1. Clonez ce dépôt :
    ```bash  
-   git clone https://github.com/votre-utilisateur/f1-data-explorer.git  
+   git clone https://github.com/sterennggn/f1-data-explorer.git  
    cd f1-data-explorer  
