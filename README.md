@@ -11,7 +11,7 @@ Ce projet est une application simple qui utilise une API F1 pour fournir des inf
 ## 🛠️ Technologies utilisées
 
 - **Langage :** JavaScript, XML.
-- **Framework :** React (ou autres à adapter selon votre choix).
+- **Framework :** Express.js 
 - **API F1 :** [Ergast Developer API](https://ergast.com/mrd/) pour récupérer les données.
 
 ## 📦 Installation
