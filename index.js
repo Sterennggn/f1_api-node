@@ -23,7 +23,7 @@ app.get("/", (req, res) => {
 // Route pour afficher la liste des pilotes
 app.get("/drivers", async (req, res) => {
     try {
-        const response = await axios.get("https://ergast.com/api/f1/drivers.json?limit=1000");
+        const response = await axios.get("https://ergast.com/api/f1/drivers.json?limit=200");
         const drivers = response.data.MRData.DriverTable.Drivers;
         let driverList = "<h1>Liste des pilotes</h1><ul>";
         drivers.forEach((driver) => {
@@ -39,7 +39,7 @@ app.get("/drivers", async (req, res) => {
 // Route pour afficher la liste des écuries
 app.get("/constructors", async (req, res) => {
     try {
-        const response = await axios.get("https://ergast.com/api/f1/constructors.json?limit=1000");
+        const response = await axios.get("https://ergast.com/api/f1/constructors.json?limit=200");
         const constructors = response.data.MRData.ConstructorTable.Constructors;
         let constructorList = "<h1>Liste des écuries</h1><ul>";
         constructors.forEach((constructor) => {
@@ -55,7 +55,7 @@ app.get("/constructors", async (req, res) => {
 // Route pour afficher les saisons disponibles
 app.get("/seasons", async (req, res) => {
     try {
-        const response = await axios.get("https://ergast.com/api/f1/seasons.json?limit=1000");
+        const response = await axios.get("https://ergast.com/api/f1/seasons.json?limit=200");
         const seasons = response.data.MRData.SeasonTable.Seasons;
         let seasonList = "<h1>Saisons disponibles</h1><ul>";
         seasons.forEach((season) => {
