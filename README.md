@@ -20,3 +20,6 @@ Ce projet est une application qui utilise une API F1 pour fournir des informatio
    ```bash  
    git clone https://github.com/sterennggn/f1-data-explorer.git  
    cd f1-data-explorer  
+2. Installez les dépendances :
+   ```bash
+   npm install
