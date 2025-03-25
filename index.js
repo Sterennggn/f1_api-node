@@ -23,14 +23,7 @@ app.get("/", (req, res) => {
 // Route pour afficher la liste des pilotes
 app.get("/drivers", async (req, res) => {
     try {
-        const response = await axios.get("https://ergast.com/api/f1/drivers.json?limit=200");
-        const drivers = response.data.MRData.DriverTable.Drivers;
-        let driverList = "<h1>Liste des pilotes</h1><ul>";
-        drivers.forEach((driver) => {
-            driverList += `<li>${driver.givenName} ${driver.familyName} (${driver.nationality})</li>`;
-        });
-        driverList += "</ul><a href='/'>Retour au menu</a>";
-        res.send(driverList);
+        res.sendFile(__dirname+"/public/drivers.html")
     } catch (error) {
         res.status(500).send("Erreur lors de la récupération des pilotes");
     }
@@ -39,6 +32,7 @@ app.get("/drivers", async (req, res) => {
 // Route pour afficher la liste des écuries
 app.get("/constructors", async (req, res) => {
     try {
+        res.sendFile(__dirname+"/public/constructors.html")
         const response = await axios.get("https://ergast.com/api/f1/constructors.json?limit=200");
         const constructors = response.data.MRData.ConstructorTable.Constructors;
         let constructorList = "<h1>Liste des écuries</h1><ul>";
@@ -55,14 +49,7 @@ app.get("/constructors", async (req, res) => {
 // Route pour afficher les saisons disponibles
 app.get("/seasons", async (req, res) => {
     try {
-        const response = await axios.get("https://ergast.com/api/f1/seasons.json?limit=200");
-        const seasons = response.data.MRData.SeasonTable.Seasons;
-        let seasonList = "<h1>Saisons disponibles</h1><ul>";
-        seasons.forEach((season) => {
-            seasonList += `<li>${season.season} (<a href="${season.url}" target="_blank">Détails</a>)</li>`;
-        });
-        seasonList += "</ul><a href='/'>Retour au menu</a>";
-        res.send(seasonList);
+        res.sendFile(__dirname+"/public/seasons.html")
     } catch (error) {
         res.status(500).send("Erreur lors de la récupération des saisons");
     }
