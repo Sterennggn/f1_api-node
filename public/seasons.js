@@ -1,10 +1,11 @@
-const axios = require("axios");
-const response = await axios.get("https://ergast.com/api/f1/seasons.json?limit=200");
-
+const response = await axios.get("https://api.jolpi.ca/ergast/f1/current/seasons/");
 const seasons = response.data.MRData.SeasonTable.Seasons;
-let seasonList = "<h1>Saisons disponibles</h1><ul>";
+
+let seasonList = document.createElement("ul")
 seasons.forEach((season) => {
-    seasonList += `<li>${season.season} (<a href="${season.url}" target="_blank">DÃ©tails</a>)</li>`;
+    seasonList += `<li>${season.season}</li>`;
 });
-seasonList += "</ul><a href='/public'>Retour au menu</a>";
-res.send(seasonList);
+let footer = document.createElement("footer");
+footer.innerHTML += `<a href='/'>Retour au menu</a>`;
+document.body.appendChild(seasonList);
+document.body.appendChild(footer);
