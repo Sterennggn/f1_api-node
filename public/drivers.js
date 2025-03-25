@@ -7,4 +7,4 @@ drivers.forEach((driver) => {
     driverList.innerHTML += `<li>${driver.givenName} ${driver.familyName} - ${driver.nationality} - ${driver.dateOfBirth}</li>`;
 });
 
-document.body.appendChild(driverList); // Ajout Ã la page
+document.body.appendChild(driverList); // Ajout à la page
