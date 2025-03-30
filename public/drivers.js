@@ -28,15 +28,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             driversContainer.appendChild(driverCard);
         });
 
-        // Masquer le loader une fois les données chargées
-        //loadingElement.style.display = 'none';
-
     } catch (error) {
         console.error("Erreur lors de la récupération des pilotes:", error);
-        /*document.getElementById('loading').innerHTML = `
-            <p style="color: #e10600;">Erreur lors du chargement des pilotes. Veuillez réessayer.</p>
-            <button onclick="window.location.reload()">Recharger</button>
-        `;
-        */
     }
 });
