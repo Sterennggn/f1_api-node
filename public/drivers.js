@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                         <span class="driver-nationality">${driver.nationality}</span>
                     </div>
                     <div>
-                        <img class="driver-portrait" src="pilotes_photos/${driver.givenName.toLowerCase()}-${driver.familyName.toLowerCase()}.png"/>
+                        <img class="driver-portrait" src="pilotes_photos/${driver.givenName.toLowerCase()}-${driver.familyName.toLowerCase()}.png" alt=""/>
                     </div>
                 </div>
             `;
