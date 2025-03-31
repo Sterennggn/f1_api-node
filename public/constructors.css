@@ -45,6 +45,12 @@
     margin-bottom: 0.5rem;
 }
 
+.constructor-details {
+    color: #666;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
 .constructor-nationality {
     display: inline-block;
     background-color: #f0f0f0;
