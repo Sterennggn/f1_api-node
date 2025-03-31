@@ -10,4 +10,4 @@ footer.innerHTML += `<a href='/'>Retour au menu</a>`;
 document.body.appendChild(seasonList);
 document.body.appendChild(footer);
 
-//calendrier des courses, et résultats 
+//calendrier des courses (trouver si l'api le permet ou en trouver une autre sinon), et résultats déjà connus

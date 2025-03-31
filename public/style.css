@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Meposa', sans-serif;
     line-height: 1.6;
     color: #333;
     background-color: #f8f8f8;
@@ -14,8 +14,7 @@ body {
 
 /* En-tête */
 .f1-header {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('https://cdn-1.motorsport.com/images/amp/6MbOQ2b0/s1000/formula-1-logo-1.jpg');
+    background: linear-gradient(rgb(70,130,180), rgb(70,130,180));
     background-size: cover;
     background-position: center;
     color: white;
@@ -28,7 +27,7 @@ body {
     font-family: 'Titillium Web', sans-serif;
     font-size: 3.5rem;
     margin-bottom: 0.5rem;
-    color: #e10600;
+    color: #FA8072;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -93,22 +92,19 @@ body {
 }
 
 .driver-card {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('https://cdn-1.motorsport.com/images/mgl/24v9j8o0/s1200/f1-monaco-gp-2023-charles-le.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     background-size: cover;
     background-position: center;
 }
 
 .constructor-card {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('https://cdn-1.motorsport.com/images/mgl/Y99Jj920/s1200/mercedes-f1-w14-side-view-1.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     background-size: cover;
     background-position: center;
 }
 
 .season-card {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('https://cdn-1.motorsport.com/images/mgl/0ZOWDz30/s1200/f1-abu-dhabi-gp-2021-max-ver-1.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     background-size: cover;
     background-position: center;
 }
@@ -132,3 +128,7 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
+/*
+police titre : meposa
+*/

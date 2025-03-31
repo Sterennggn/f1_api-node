@@ -2,11 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>constructeurs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecuries / Constructors</title>
+    <link rel="stylesheet" href="constructors.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Liste des constructeurs</h1>
-    <script src="constructors.js" type="module"></script>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<header class="f1-header constructor-header">
+    <div class="header-content">
+        <h1>Liste des écuries !</h1>
+        <p>Saison actuelle - Informations </p>
+    </div>
+</header>
+
+<main class="container">
+    <div id="constructors-container" class="constructor-container"></div>
+</main>
+
+<footer class="f1-footer">
+    <a href="/" class="home-link">← Retour à l'accueil</a>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="constructors.js" type="module"></script>
 </body>
 </html>

@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         const response = await axios.get("https://api.jolpi.ca/ergast/f1/current/drivers/");
         const drivers = response.data.MRData.DriverTable.Drivers;
 
-        //const loadingElement = document.getElementById('loading');
         const driversContainer = document.getElementById('drivers-container');
 
         // Création des cartes de pilotes

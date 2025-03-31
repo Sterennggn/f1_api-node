@@ -1,24 +1,24 @@
-/* Header spécifique aux pilotes */
-.driver-header {
+/* Header spécifique aux constructeurs */
+.constructor-header {
     background: linear-gradient(rgb(240,230,140), rgb(240,230,140)),
     url('https://cdn-1.motorsport.com/images/mgl/6Z3rLjb0/s1200/f1-monaco-gp-2023-charles-le-1.webp');
 }
 
-/* Conteneur des pilotes */
-.drivers-container {
+/* Conteneur des constructeurs */
+.constructor-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 1.5rem;
     margin: 2rem 0;
 }
 
-/* taille de la photo */
-.driver-portrait {
+/* taille du logo */
+.constructor-portrait {
     max-height: 100px;
 }
 
-/* case avec prenom... */
-.driver-card {
+/* case avec nom... */
+.constructor-card {
     background-color: white;
     border-radius: 8px;
     overflow: hidden;
@@ -27,30 +27,25 @@
     border-left: 4px solid #e10600;
 }
 
-.driver-card:hover {
+/* passer avec la souris sur la case */
+.constructor-card:hover {
     transform: translateY(-5px);
 }
 
-.driver-info {
+.constructor-info {
     display: flex;
     justify-content: space-evenly;
     padding: 1.5rem;
 }
 
-.driver-name {
+.constructor-name {
     font-family: 'Titillium Web', sans-serif;
     font-size: 1.5rem;
     color: #e10600;
     margin-bottom: 0.5rem;
 }
 
-.driver-details {
-    color: #666;
-    margin-bottom: 0.5rem;
-    font-size: 0.9rem;
-}
-
-.driver-nationality {
+.constructor-nationality {
     display: inline-block;
     background-color: #f0f0f0;
     padding: 0.3rem 0.6rem;
