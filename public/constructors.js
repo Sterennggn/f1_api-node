@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                         <a href="${constructor.url}" style="color: red">
                             <h2 class="constructor-name">${constructor.name}</h2>
                         </a>
-                        <p class="constructor-details">${driver.dateOfBirth}</p>
                         <span class="constructor-nationality">${constructor.nationality}</span>
                     </div>
                     <div>

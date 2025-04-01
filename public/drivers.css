@@ -1,7 +1,19 @@
-/* Header spécifique aux pilotes */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+
 .driver-header {
-    background: linear-gradient(rgb(240,230,140), rgb(240,230,140)),
-    url('https://cdn-1.motorsport.com/images/mgl/6Z3rLjb0/s1200/f1-monaco-gp-2023-charles-le-1.webp');
+    background: linear-gradient(rgb(240,248,255), rgb(240,248,255));
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 1px;
+    font-family: "Bungee Tint", sans-serif, cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Conteneur des pilotes */
