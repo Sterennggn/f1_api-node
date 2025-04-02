@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formula 1 - Accueil</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
 </head>
 <body>
 <header class="f1-header">
@@ -23,25 +23,30 @@
     <div class="card-container">
         <a href="/drivers" class="f1-card driver-card">
             <div class="card-content">
-                <h2>Pilotes</h2>
-                <p>Découvrez tous les pilotes de F1 présent cette année !</p>
+                <h2 style="position: absolute; bottom: 250%">🏆Pilotes </h2>
                 <div>
-                    <img class="bloc_photos" src="/bloc_photos/ferrari.png"/>
+                    <img style="position: absolute; bottom: 15%; right: 10%; z-index: -1; height: 350%;" src="/bloc_photos/hamilton.png">
                 </div>
+
             </div>
         </a>
 
         <a href="/constructors" class="f1-card constructor-card">
             <div class="card-content">
-                <h2>Écuries</h2>
-                <p>Explorez les équipes légendaires de cette année 2025</p>
+                <h2 style="position: absolute; bottom: 250%">🏎️Écuries</h2>
+                <div>
+                    <img style="position: absolute; bottom: 15%; z-index: -1" src="/bloc_photos/ferrari.png">
+                </div>
             </div>
+
         </a>
 
         <a href="/seasons" class="f1-card season-card">
             <div class="card-content">
-                <h2>Saisons</h2>
-                <p>Revivez la saison et ses résultats</p>
+                <h2 style="position: absolute; bottom: 250%">🚦Saisons</h2>
+                <div>
+                    <img style="position: absolute; bottom: 15%; right: 10%; z-index: -1; height: 350%;" src="/bloc_photos/circuitbis.png">
+                </div>
             </div>
         </a>
     </div>
@@ -51,7 +56,7 @@
 </main>
 
 <footer class="f1-footer">
-    <p>© 2025 Formula 1 App - Tous droits réservés</p>
+    <p class="bas-page">© 2025 Formula 1 App - Tous droits réservés</p>
 </footer>
 </body>
 </html>
