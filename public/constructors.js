@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             constructorsCard.innerHTML = `
                 <div class="constructor-info">
                     <div>
-                        <a href="${constructor.url}" style="color: red">
+                        <a href="${constructor.url}" class="home-link">
                             <h2 class="constructor-name">${constructor.name}</h2>
                         </a>
                         <span class="constructor-nationality">${constructor.nationality}</span>
