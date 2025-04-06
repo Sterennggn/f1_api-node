@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+
+.race-header {
+    background: linear-gradient(rgb(240,248,255), rgb(240,248,255));
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 1px;
+    font-family: "Bungee Tint", sans-serif, cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.race-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.race-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border-left: 4px solid #e10600;
+}
+
+.race-card:hover {
+    transform: translateY(-5px);
+}
+
+.race-info {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+    flex-direction: column;
+}
+
+.race-name {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.5rem;
+    color: #e10600;
+    margin-bottom: 0.5rem;
+}
+
+.race-details {
+    color: #595959;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.race-futur {
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 0.3rem 0.6rem;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.sprint-info, .sprint-qualifying-info, .results-info {
+    font-size: 0.85rem;
+    margin-top: 0.1rem;
+    padding: 0.1rem;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+.sprint-info {
+    color: #e10600;
+}
+
+.sprint-qualifying-info {
+    color: #c0a806;
+}
+
+.results-info {
+    color: #4296ad;
+}
+
+
+.home-link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: opacity 0.3s;
+}
+
+.home-link:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
