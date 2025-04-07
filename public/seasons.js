@@ -46,7 +46,7 @@ try {
             const sprintQualiDate = new Date(`${sprintQ.date}T${sprintQ.time}`);
             raceCard.innerHTML += `
                 <div class="sprint-qualifying-info">
-                    <div>🎯 Qualification Sprint : ${sprintQualiDate.toLocaleString()}</div>
+                    <div>🎯Qualification Sprint : ${sprintQualiDate.toLocaleString()}</div>
                 </div>
             `;
         } else {
