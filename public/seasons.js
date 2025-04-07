@@ -24,7 +24,7 @@ try {
                     </a>
                     <p class="race-details">📍 ${race.Circuit.circuitName} - ${race.Circuit.Location.locality}, ${race.Circuit.Location.country}</p>
                     <p class="race-details">📅 ${race.date}</p>
-                    ${isFutureRace ? `<div class="race-futur">À venir</div>` : ''}
+                    ${isFutureRace ? `<div class="race-futur"> À venir </div>` : ''}
                 </div>
             </div>
         `;
