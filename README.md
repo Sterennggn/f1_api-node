@@ -4,13 +4,13 @@ Ce projet est une application simple qui utilise une API F1 pour fournir des inf
 
 ## 🚀 Fonctionnalités
 
-- **Pilotes :** Afficher la liste des pilotes, leur nationalité, leurs victoires, leurs écuries.
-- **Écuries :** Explorez les écuries de Formule 1, leurs performances et les saisons dans lesquelles elles étaient présentes.
-- **Saisons :** Parcourez les différentes saisons, avec les résultats et les classements constructeurs et pilotes.
+- **Pilotes :** Afficher la liste des pilotes te leurs informations.
+- **Écuries :** Liste des écuries avec lien vers wikipedia.
+- **Saisons :** Découvrez le calendrier de la saison 2025 avec les résultats des courses déjà passées. 
 
 ## 🛠️ Technologies utilisées
 
-- **Langage :** JavaScript, CSS.
+- **Langage :** JavaScript, CSS, HTML
 - **Framework :** NodeJs, Express
 - **API F1 :** jolpi API - (http://api.jolpi.ca/ergast/f1/) 
 
