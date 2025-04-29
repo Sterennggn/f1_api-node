@@ -30,3 +30,4 @@ document.addEventListener('DOMContentLoaded', async () => {
         console.error("Erreur lors de la récupération des écuries : ", error);
     }
 });
+
