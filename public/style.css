@@ -50,7 +50,7 @@ body {
 
 /* Conteneur principal */
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 1rem;
 }
@@ -148,7 +148,7 @@ body {
     position: absolute;
     display : flex;
     left: 47%;
-    bottom: 11%;
+    bottom: 14%;
     width: 48%;
     border: #333333 3px solid;
     box-shadow: -8px 10px 11px 11px #737677;
